@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Check-In Hotel Boa Viagem"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>Check-In Hotel Boa Viagem</title>
+	<link rel="stylesheet" href="estilo.css">
+	<link rel=“stylesheet” type=“text/css”
+href=“estilo.css” />
+	<script type="text/javascript" src="hotelbv.js"></script>
+
+</head>
+<body>
+
+
+
+	<div id="container">
+
+	<div id="header">
+
+  </div>
+
+  <div id="menu">
+		<br>
+	</div>
+
+		<div id= "formulario">
+				<br>
+
+				<ul>
+					<br>
+						<form class="form-search">
+							<p></p>
+							<p><input type="text" class="input-medium" placeholder="RSV-HBV-001"></p>
+							<button onclick="">Pesquisar Reserva</button>
+						</form><br>
+
+						<p><b><h3>Dados da Reserva</h3></b></p>
+						<br>
+						<b><p>Data de Entrada:</p></b>
+						<button onclick="horaAtual()">Verificar Data Atual</button>
+						<p id="demo"></p><br>
+
+						<p><b><h3>Quantidade de Hóspedes</h3></b></p>
+
+						<p><b>Adultos</b></p>
+
+						<input  type="text" id = "n_adultos" placeholder="2">
+
+						<p><b>Crianças</b></p>
+
+						<input type="text" id = "n_criancas" placeholder="2">
+
+						<p><b>Reserva número</b></p>
+
+						<input type="text" placeholder="RSV-HBV-001">
+
+						<div class="control-group">
+  											<br><label class="control-label" id = "quarto" for="tpQuarto">Tipo de Quarto:</label>
+  											<select class="span3" required>
+  												<option value="">Selecione</option>
+  												<option value="1">Single</option>
+  												<option value="2">Double</option>
+  												<option value="3" selected>Suite Luxo</option>
+												<option value="4">Presidencial</option>
+  											</select>
+
+						<p><button name="finalizar" type="finalizar"	id="finalizar-formulario"
+							onclick="finalizar()">Finalizar Check-in</button>
+
+
+
+				</ul>
+
+
+
+</body>
+</html>
